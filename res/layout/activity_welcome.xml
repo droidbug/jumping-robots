@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:background="@drawable/backgrnd8"
+                tools:context=".WelcomeActivity">
+
+    <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <Button android:id="@+id/btnWelcomeLogo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/robo10"
+                android:text=""/>
+
+
+        <TextView android:id="@+id/welcomeText"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Press the Android\n to Start"
+                  android:textAlignment="center"
+                  android:gravity="center"
+                  android:textColor="@android:color/holo_green_light"
+                  android:textAppearance="?android:attr/textAppearanceLarge"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
